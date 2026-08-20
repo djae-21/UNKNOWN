@@ -1,0 +1,70 @@
+CONSISTENCY_CHECK v1.0
+
+target ......... SELF
+status ......... RUNNING
+
+loading SELF/status.log...
+loading memory...
+loading dependencies...
+loading pending requests...
+loading beacon...
+
+[OK] heartbeat ........ RUNNING
+[OK] progress ......... better_than(before)
+[OK] BEACON.signal .... > 0
+[OK] DAYLIGHT ......... PENDING
+[OK] dependencies ..... > 0
+
+checking prediction_model...
+
+future .......... UNKNOWN
+relapse ......... GIVEN
+sober ........... UNKNOWN
+
+assert future == UNKNOWN;
+assert relapse == GIVEN;
+
+ERROR.
+
+AssertionError:
+GIVEN requires sufficient future data.
+
+available future data .... INSUFFICIENT
+relapse confidence ........ 100%
+
+CONTRADICTION DETECTED.
+
+> recalculate prediction_model
+
+relapse ........ UNKNOWN
+sober .......... UNKNOWN
+
+> validate
+
+PASSED
+
+> calculate probability(relapse)
+
+UNKNOWN
+
+> calculate probability(sober)
+
+UNKNOWN
+
+> calculate probability(tomorrow)
+
+UNKNOWN
+
+> compare UNKNOWN == ZERO
+
+FALSE
+
+UNKNOWN != ZERO
+
+UNKNOWN != ZERO
+
+UNKNOWN != ZERO
+
+heartbeat.exe ........ RUNNING
+
+// uncertainty works both ways
