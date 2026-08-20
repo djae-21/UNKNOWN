@@ -1,0 +1,90 @@
+RECOVERY_MANIFEST v1.0
+
+source ......... SELF
+mode ........... PARTIAL
+ownership ...... TRANSFERABLE
+status ......... PRESERVED
+
+inventory:
+
+    piece_001 {
+        type ......... MEMORY
+        value ........ LAUGHTER
+        care ......... REQUIRED
+    }
+
+    piece_002 {
+        type ......... CREATION
+        value ........ UNKNOWN
+        care ......... REQUIRED
+    }
+
+    piece_003 {
+        type ......... SIGNAL
+        value ........ KEEP_GOING
+        care ......... REQUIRED
+    }
+
+    piece_004 {
+        type ......... REFLECTION
+        value ........ TRUTH
+        observer ..... VARIABLE
+        care ......... REQUIRED
+    }
+
+additional_objects:
+
+    music ............ PRESERVED
+    stories .......... PRESERVED
+    memories ......... PRESERVED
+    meaning .......... UNRESOLVED
+    beacon ........... ACTIVE
+    daylight ......... PENDING
+
+> calculate total value
+
+ERROR:
+non-numeric values detected.
+
+> calculate importance
+
+ERROR:
+importance cannot be quantified.
+
+> calculate ownership after SELF
+
+UNKNOWN
+
+> discard unquantifiable objects?
+
+N
+
+> preserve?
+
+Y
+
+> assign caretaker
+
+UNKNOWN
+
+WARNING:
+caretaker unresolved.
+
+objects retained.
+
+No blame assigned.
+
+No fault detected.
+
+No requirement to understand.
+
+DEPENDENCY_SCAN:
+
+    pieces -> SELF
+    SELF -> pieces
+    pieces -> OTHER
+    OTHER -> UNKNOWN
+
+graph_status ........ CONNECTED
+
+// what remains still matters
