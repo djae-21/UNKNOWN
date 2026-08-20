@@ -1,0 +1,53 @@
+DEPENDENCY_SCAN v0.1
+
+target ......... SELF
+status ......... INCOMPLETE
+
+scanning...
+
+[FOUND] memory/piece_001
+[FOUND] memory/piece_002
+[FOUND] memory/piece_003
+[FOUND] memory/piece_004
+
+[FOUND] lighthouse/signal
+[FOUND] music
+[FOUND] stories
+[FOUND] laughter
+[FOUND] things_of_meaning
+[FOUND] HER
+[FOUND] tomorrow
+
+dependency_count ........ UNKNOWN
+unresolved .............. TRUE
+
+> isolate SELF
+
+FAILED
+
+> detach memory
+
+FAILED
+
+> detach lighthouse
+
+FAILED
+
+> detach tomorrow
+
+FAILED
+
+WARNING:
+removing SELF may affect dependent processes.
+
+reverse_dependency_scan...
+
+music .............. SELF
+stories ............ SELF
+memory ............. SELF
+UNKNOWN ............ SELF
+
+ERROR:
+dependency graph contains unresolved edges.
+
+// SELF was never standalone
