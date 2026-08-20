@@ -1,0 +1,36 @@
+QUEUE_ENTRY 001
+
+request ........ DAYLIGHT
+source ......... HER
+destination .... SELF
+
+received_at .... NOW
+execute_at ..... TOMORROW
+
+priority ....... UNKNOWN
+status ......... PENDING
+
+> resolve TOMORROW
+
+ERROR:
+timestamp cannot be resolved.
+
+> cancel request?
+
+N
+
+> discard unresolved request?
+
+N
+
+request retained.
+
+retry_policy:
+
+    while (TOMORROW == UNKNOWN) {
+        wait(NOW + 1);
+    }
+
+next_attempt .... NOW + 1
+
+// pending != failed
