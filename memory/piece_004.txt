@@ -1,0 +1,28 @@
+MEMORY_FRAGMENT 004
+
+capture ........ VALID
+source ......... MIRROR
+integrity ...... 100%
+
+INPUT:
+SELF
+
+OUTPUT_A:
+TRUTH
+
+OUTPUT_B:
+HTURT
+
+observer_A ..... SELF
+observer_B ..... OTHER
+
+comparison ..... FAILED
+
+assert OUTPUT_A == OUTPUT_B;
+
+AssertionError:
+reflection depends on observer.
+
+checksum ....... PASSED
+
+// mirrored data is still data
