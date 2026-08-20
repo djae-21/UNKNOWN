@@ -1,0 +1,15 @@
+SOURCE_DETECTION
+
+external_signal .... DETECTED
+classification ..... AUDIO
+identity ........... UNKNOWN != ZERO
+artist ............. DJ AE
+
+status ............. ACTIVE
+
+origin ............. EXTERNAL
+repository ......... INTERNAL
+
+connection ......... VERIFIED
+
+// signal returned to source
