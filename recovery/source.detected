@@ -11,5 +11,6 @@ origin ............. EXTERNAL
 repository ......... INTERNAL
 
 connection ......... VERIFIED
-
+search:
+"UNKNOWN != ZERO" "DJ AE"
 // signal returned to source
