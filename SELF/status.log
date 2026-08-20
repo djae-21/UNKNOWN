@@ -1,0 +1,51 @@
+SELF_DIAGNOSTIC v0.1
+
+process ........ SELF
+state .......... ACTIVE
+heartbeat ...... RUNNING
+navigation ..... DEGRADED
+
+VISION .......... 0
+SHORE ........... UNKNOWN
+RETURN_PATH ..... NULL
+
+CHAOS ........... FAMILIAR
+PAIN ............ PERSISTENT
+SCARS ........... HIDDEN
+
+progress ........ better_than(before)
+enough .......... keep_going
+
+future .......... UNKNOWN
+
+prediction_model:
+
+    relapse ...... GIVEN
+    sober ........ UNKNOWN
+
+confidence:
+
+    relapse ...... 100%
+    sober ........ NULL
+
+validation ....... PASSED
+
+> evaluate tomorrow
+
+insufficient data.
+
+> evaluate relapse
+
+GIVEN
+
+> evaluate sober
+
+UNKNOWN
+
+> continue?
+
+UNKNOWN
+
+heartbeat.exe ........ RUNNING
+
+// diagnostic complete
