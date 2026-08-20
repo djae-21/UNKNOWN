@@ -1,0 +1,22 @@
+MEMORY_FRAGMENT 002
+
+capture ........ PARTIAL
+source ......... SELF
+encoding ....... 0x
+integrity ...... 71%
+
+74 68 69 6e 67 73 20 6f 66 20 6d 65 61 6e 69 6e 67
+
+owner .......... UNKNOWN
+purpose ........ UNRESOLVED
+state .......... PRESERVED
+
+dependency_scan:
+
+    SELF -> [0x74...]
+    [0x74...] -> UNKNOWN
+
+WARNING:
+deletion may affect dependent processes.
+
+// value exists before value is understood
