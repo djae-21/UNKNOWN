@@ -1,0 +1,16 @@
+SIGNAL_MONITOR v0.1
+
+source ........ UNKNOWN
+origin ........ offshore
+strength ...... 1%
+status ........ FADING
+destination ... SELF
+
+[....................] 1%
+
+BEACON.signal > 0
+
+navigation ........ AVAILABLE
+shore ............. UNKNOWN
+
+// fading != gone
