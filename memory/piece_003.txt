@@ -1,0 +1,23 @@
+MEMORY_FRAGMENT 003
+
+capture ........ FAILED
+encoding ....... NONE
+integrity ...... 0%
+
+kernel .......... no recoverable data
+echo ............ empty response
+entropy ......... exceeds threshold
+process ......... terminated
+
+garbage ........ discarded
+output .......... NULL
+index ........... unresolved
+noise ........... ignored
+generation ...... incomplete
+
+0 rows returned.
+
+WARNING:
+fragment contains no meaningful data.
+
+// nothing found
