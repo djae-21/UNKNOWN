@@ -1,0 +1,45 @@
+HTTP/1.1 206 PARTIAL CONTENT
+
+Server: SELF
+Connection: keep-alive
+Content-Type: application/octet-stream
+Accept-Ranges: pieces
+
+Content-Range: pieces */UNKNOWN
+
+request:
+    GET /meaning
+
+response:
+    PARTIAL
+
+received:
+
+    piece_001 .... LAUGHTER
+    piece_002 .... PRESERVED
+    piece_003 .... RECOVERED
+    piece_004 .... VALID
+
+    beacon ....... 1%
+    daylight ..... PENDING
+    tomorrow ..... UNKNOWN
+
+> require complete response?
+
+FALSE
+
+> usable?
+
+TRUE
+
+> enough?
+
+UNKNOWN
+
+> discard?
+
+FALSE
+
+cache-control: preserve
+
+// partial != empty
